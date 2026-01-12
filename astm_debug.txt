@@ -1,0 +1,119 @@
+
+[16:00:46.390] Parsing ResultSegment
+  Línea completa: R|1|^^^767|50.32|mg/dL||N||R||$SYS$||20210930102739
+  fields.Length: 13
+  fields[2]: '^^^767'
+  testCodeComponent.Length: 4
+  testCodeComponent[0]: ''
+  testCodeComponent[1]: ''
+  testCodeComponent[2]: ''
+  testCodeComponent[3]: '767'
+  Antes Regex: '767'
+  Después Regex: '767'
+  testCode final: '767' -> testName: 'Glucosa'
+  Result: '50.32'
+  Units: 'mg/dL'
+  ReferenceRange: ''
+  ResultStatus: 'N'
+
+[16:00:46.411] Parsing ResultSegment
+  Línea completa: R|2|^^^687|68.6|U/L||N||R||$SYS$||20210930102851
+  fields.Length: 13
+  fields[2]: '^^^687'
+  testCodeComponent.Length: 4
+  testCodeComponent[0]: ''
+  testCodeComponent[1]: ''
+  testCodeComponent[2]: ''
+  testCodeComponent[3]: '687'
+  Antes Regex: '687'
+  Después Regex: '687'
+  testCode final: '687' -> testName: 'ALT (SGPT)'
+  Result: '68.6'
+  Units: 'U/L'
+  ReferenceRange: ''
+  ResultStatus: 'N'
+
+[16:00:46.418] Parsing ResultSegment
+  Línea completa: R|3|^^^418|29.19|mg/dL||N||R||$SYS$||20210930102627
+  fields.Length: 13
+  fields[2]: '^^^418'
+  testCodeComponent.Length: 4
+  testCodeComponent[0]: ''
+  testCodeComponent[1]: ''
+  testCodeComponent[2]: ''
+  testCodeComponent[3]: '418'
+  Antes Regex: '418'
+  Después Regex: '418'
+  testCode final: '418' -> testName: 'AST (SGOT)'
+  Result: '29.19'
+  Units: 'mg/dL'
+  ReferenceRange: ''
+  ResultStatus: 'N'
+
+[16:00:46.421] Parsing ResultSegment
+  Línea completa: R|4|^^^685|20.6|U/L||N||R||$SYS$||20210930102833
+  fields.Length: 13
+  fields[2]: '^^^685'
+  testCodeComponent.Length: 4
+  testCodeComponent[0]: ''
+  testCodeComponent[1]: ''
+  testCodeComponent[2]: ''
+  testCodeComponent[3]: '685'
+  Antes Regex: '685'
+  Después Regex: '685'
+  testCode final: '685' -> testName: 'Fosfatasa Alcalina'
+  Result: '20.6'
+  Units: 'U/L'
+  ReferenceRange: ''
+  ResultStatus: 'N'
+
+[16:00:46.424] Parsing ResultSegment
+  Línea completa: R|5|^^^690|0.7|mg/dL||N||R||$SYS$||20210930102757
+  fields.Length: 13
+  fields[2]: '^^^690'
+  testCodeComponent.Length: 4
+  testCodeComponent[0]: ''
+  testCodeComponent[1]: ''
+  testCodeComponent[2]: ''
+  testCodeComponent[3]: '690'
+  Antes Regex: '690'
+  Después Regex: '690'
+  testCode final: '690' -> testName: 'Bilirrubina Total'
+  Result: '0.7'
+  Units: 'mg/dL'
+  ReferenceRange: ''
+  ResultStatus: 'N'
+
+[16:00:46.426] Parsing ResultSegment
+  Línea completa: R|6|^^^712|11.5|mg/dL||N||R||cobas||20210930102739
+  fields.Length: 13
+  fields[2]: '^^^712'
+  testCodeComponent.Length: 4
+  testCodeComponent[0]: ''
+  testCodeComponent[1]: ''
+  testCodeComponent[2]: ''
+  testCodeComponent[3]: '712'
+  Antes Regex: '712'
+  Después Regex: '712'
+  testCode final: '712' -> testName: 'Bilirrubina Directa'
+  Result: '11.5'
+  Units: 'mg/dL'
+  ReferenceRange: ''
+  ResultStatus: 'N'
+
+[16:00:46.428] Parsing ResultSegment
+  Línea completa: R|7|^^^734|0.5|mg/dL||N||R||$SYS$||20210930102721
+  fields.Length: 13
+  fields[2]: '^^^734'
+  testCodeComponent.Length: 4
+  testCodeComponent[0]: ''
+  testCodeComponent[1]: ''
+  testCodeComponent[2]: ''
+  testCodeComponent[3]: '734'
+  Antes Regex: '734'
+  Después Regex: '734'
+  testCode final: '734' -> testName: 'Albúmina'
+  Result: '0.5'
+  Units: 'mg/dL'
+  ReferenceRange: ''
+  ResultStatus: 'N'

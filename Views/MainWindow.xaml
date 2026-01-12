@@ -1,0 +1,29 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Interfazxn.Views.MainWindow"
+        Title="LIS Cobas c 111"
+        Width="900"
+        Height="700"
+        Background="#F5F7FA">
+
+    <StackPanel Margin="20" Spacing="15">
+        <TextBlock Text="Sistema LIS - Cobas c 111" FontSize="24" FontWeight="Bold" Foreground="#2C3E50"/>
+        
+        <TextBlock Text="CONEXIÓN" FontSize="14" FontWeight="Bold" Foreground="#2C3E50"/>
+        <ComboBox ItemsSource="{Binding AvailablePorts}" SelectedItem="{Binding SelectedPort}" Padding="10"/>
+        
+        <Button Content="🔌 CONECTAR" Command="{Binding ConnectCommand}" Padding="10" Background="#27AE60" Foreground="White"/>
+        <Button Content="❌ DESCONECTAR" Command="{Binding DisconnectCommand}" Padding="10" Background="#E74C3C" Foreground="White"/>
+        
+        <TextBlock Text="{Binding StatusMessage}" FontSize="12" Foreground="#34495E"/>
+        
+        <TextBlock Text="MENSAJES RECIBIDOS" FontSize="12" FontWeight="Bold" Foreground="#2C3E50"/>
+        <ListBox ItemsSource="{Binding ReceivedMessages}" Height="80" Background="White"/>
+        
+        <TextBlock Text="ÚLTIMOS RESULTADOS" FontSize="12" FontWeight="Bold" Foreground="#2C3E50"/>
+        <ListBox ItemsSource="{Binding LastResults}" Height="80" Background="White"/>
+        
+        <TextBlock Text="LOGS" FontSize="12" FontWeight="Bold" Foreground="#2C3E50"/>
+        <ListBox ItemsSource="{Binding Logs}" Height="80" Background="White"/>
+    </StackPanel>
+</Window>
