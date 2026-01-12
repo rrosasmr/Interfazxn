@@ -18,7 +18,7 @@
         <TextBlock Text="{Binding StatusMessage}" FontSize="12" Foreground="#34495E"/>
         
         <TextBlock Text="MENSAJES RECIBIDOS" FontSize="12" FontWeight="Bold" Foreground="#2C3E50"/>
-        <ListBox ItemsSource="{Binding ReceivedMessages}" Height="80" Background="White"/>
+        <ListBox ItemsSource="{Binding ReceivedMessages}" Height="70" Background="White"/>
         
         <TextBlock Text="ÚLTIMOS RESULTADOS" FontSize="12" FontWeight="Bold" Foreground="#2C3E50"/>
         <ListBox ItemsSource="{Binding LastResults}" Height="80" Background="White"/>
