@@ -10,10 +10,28 @@
         <TextBlock Text="Sistema LIS - Cobas c 111" FontSize="24" FontWeight="Bold" Foreground="#2C3E50"/>
         
         <TextBlock Text="CONEXIÓN" FontSize="14" FontWeight="Bold" Foreground="#2C3E50"/>
-        <ComboBox ItemsSource="{Binding AvailablePorts}" SelectedItem="{Binding SelectedPort}" Padding="10"/>
         
-        <Button Content="🔌 CONECTAR" Command="{Binding ConnectCommand}" Padding="10" Background="#27AE60" Foreground="White"/>
-        <Button Content="❌ DESCONECTAR" Command="{Binding DisconnectCommand}" Padding="10" Background="#E74C3C" Foreground="White"/>
+        <!-- StackPanel Horizontal para los controles de conexión -->
+        <StackPanel Orientation="Horizontal" Spacing="10">
+            <ComboBox ItemsSource="{Binding AvailablePorts}" 
+                      SelectedItem="{Binding SelectedPort}" 
+                      Padding="10" 
+                      Width="150"/>
+            
+            <Button Content="🔌 CONECTAR" 
+                    Command="{Binding ConnectCommand}" 
+                    Padding="10" 
+                    Background="#27AE60" 
+                    Foreground="White"
+                    Width="150"/>
+            
+            <Button Content="❌ DESCONECTAR" 
+                    Command="{Binding DisconnectCommand}" 
+                    Padding="10" 
+                    Background="#E74C3C" 
+                    Foreground="White"
+                    Width="150"/>
+        </StackPanel>
         
         <TextBlock Text="{Binding StatusMessage}" FontSize="12" Foreground="#34495E"/>
         
